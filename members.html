@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Members | {{LAB}}</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="members">
+  <header id="site-header"></header>
+
+  <main>
+    <div class="page-hero">
+      <div class="container">
+        <h1>Members</h1>
+        <p>People of the lab</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="container" id="member-list"></div>
+    </section>
+
+    <section class="soft" id="alumni-section">
+      <div class="container">
+        <div class="section-head"><h2>Alumni</h2></div>
+        <div style="overflow-x:auto">
+          <table class="alumni">
+            <thead><tr><th>Name</th><th>Degree</th><th>Thesis</th><th>Current Position</th></tr></thead>
+            <tbody id="alumni-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/lab.js"></script>
+  <script src="data/research.js"></script>
+  <script src="data/members.js"></script>
+  <script src="data/publications.js"></script>
+  <script src="data/news.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
